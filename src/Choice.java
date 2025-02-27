@@ -4,12 +4,12 @@ enum Choice {
     PAPIER,
     SCHERE;
 
-    // Gibt den Choice-Wert basierend auf einer Eingabe zurück, falls gültig
     public static Choice fromString(String input) {
         if (input == null) {
             return null;
         }
-        switch (input.trim().toLowerCase()) {
+        input = input.trim().toLowerCase();
+        switch (input) {
             case "schere":
                 return SCHERE;
             case "stein":
