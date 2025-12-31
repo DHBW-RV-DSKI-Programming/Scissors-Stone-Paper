@@ -1,54 +1,63 @@
-# Schere, Stein, Papier
+# Scheere-Stein-Papier
 
 ## Ziel der Aufgabe
 
-Programmiere das klassische Spiel **Schere, Stein, Papier** als Konsolenanwendung. Zwei Spieler (ein Nutzer und ein
-Computer) sollen gegeneinander spielen können. Das Programm soll die Eingaben entgegennehmen, auswerten und das Ergebnis
-anzeigen.
+Programmiere das klassische Spiel **Schere, Stein, Papier** als Konsolenanwendung. Zwei Spieler (ein Nutzer und ein Computer) sollen gegeneinander spielen können. Das Programm soll die Eingaben entgegennehmen, auswerten und das Ergebnis anzeigen.
+
+- - -
 
 ## Anforderungen
 
-1. **Spielablauf:**
-    - Der Spieler gibt seine Wahl ein: *Schere*, *Stein* oder *Papier*.
-    - Der Computer trifft zufällig eine Wahl.
-    - Das Programm wertet die Eingaben aus und gibt aus, wer gewonnen hat.
-    - Nach jeder Runde soll der Spieler gefragt werden, ob er weiterspielen möchte.
+### Spielablauf:
 
-2. **Spielregeln:**
-    - **Schere schlägt Papier**
-    - **Papier schlägt Stein**
-    - **Stein schlägt Schere**
-    - Gleiche Eingaben führen zu einem Unentschieden.
+1.  Der Spieler gibt seine Wahl ein: **Schere, Stein** oder **Papier**.
+2.  Der Computer trifft zufällig eine Wahl.
+3.  Das Programm wertet die Eingaben aus und gibt aus, wer gewonnen hat.
+4.  Nach jeder Runde soll der Spieler gefragt werden, ob er weiterspielen möchte.
+
+### Spielregeln:
+
+*   **Schere** schlägt **Papier**
+*   **Papier** schlägt **Stein**
+*   **Stein** schlägt **Schere**
+*   Gleiche Eingaben führen zu einem **Unentschieden**.
+
+- - -
 
 ## Erwartete Ein- und Ausgabe (Beispiel)
 
-**Spielstart:**
+### Spielstart:
 
 ```
-Schere, Stein oder Papier? 
+Schere, Stein oder Papier?
 Spieler: Stein
 Computer: Schere
 Du gewinnst! 🎉
 ```
 
-**Weiterer Spielverlauf:**
+### Weiterer Spielverlauf:
 
 ```
-Schere, Stein oder Papier? 
+Schere, Stein oder Papier?
 Spieler: Papier
 Computer: Papier
 Unentschieden! 🤝
 ```
 
-**Spielende:**
+### Spielende:
 
 ```
-Möchtest du noch eine Runde spielen? (ja/nein)  
-nein  
-Danke fürs Spielen! 👋  
+Möchtest du noch eine Runde spielen? (ja/nein)
+nein
+Danke fürs Spielen! 👋
 ```
 
-#### **Hinweise**
+- - -
 
-- Falls du das Spiel erweitern möchtest, kannst du z. B. eine Punktzahl-Verwaltung oder eine Erweiterung um „Echse“ und
-  „Spock“ (aus *Big Bang Theory*) hinzufügen.
+## Hinweis
+
+Falls du das Spiel erweitern möchtest, kannst du z. B. eine **Punktzahl-Verwaltung** oder eine Erweiterung um „**Echse**“ und „**Spock**“ (aus Big Bang Theory) hinzufügen.
+
+## Abgabe
+
+Reiche alle Dateien als `Zip` ein. Viel Erfolg!
