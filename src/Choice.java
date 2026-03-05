@@ -9,16 +9,12 @@ enum Choice {
             return null;
         }
         input = input.trim().toLowerCase();
-        switch (input) {
-            case "schere":
-                return SCHERE;
-            case "stein":
-                return STEIN;
-            case "papier":
-                return PAPIER;
-            default:
-                return null;
-        }
+        return switch (input) {
+            case "schere" -> SCHERE;
+            case "stein" -> STEIN;
+            case "papier" -> PAPIER;
+            default -> null;
+        };
     }
 
 }
